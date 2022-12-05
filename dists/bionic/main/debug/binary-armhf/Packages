@@ -1,0 +1,57 @@
+Package: ros-melodic-depthai-bridge-dbgsym
+Package-Type: ddeb
+Source: ros-melodic-depthai-bridge
+Version: 2.5.3-3bionic~20221129
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 1178
+Depends: ros-melodic-depthai-bridge (= 2.5.3-3bionic~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-melodic-depthai-bridge/ros-melodic-depthai-bridge-dbgsym_2.5.3-3bionic~20221129_armhf.ddeb
+Size: 1142660
+SHA256: 097861321213ec09eff8bf62ff384c50cbf338b388ff42384b3782d3a36886b3
+SHA1: 1015e61503d443fb153a0c69cea8525634ed9e7d
+MD5sum: cda278069efa0c185062f36aa2f194fe
+Description: debug symbols for ros-melodic-depthai-bridge
+Build-Ids: a8ba5ef8c716e01620bbc7c316e217e03b6ce7bf
+
+Package: ros-melodic-depthai-dbgsym
+Package-Type: ddeb
+Source: ros-melodic-depthai
+Version: 2.19.1-3bionic~20221129
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 20080
+Depends: ros-melodic-depthai (= 2.19.1-3bionic~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-melodic-depthai/ros-melodic-depthai-dbgsym_2.19.1-3bionic~20221129_armhf.ddeb
+Size: 18903992
+SHA256: ed60994bd840ee5f43129ede6fc119e2b39b47e45b616bf313406e9bf49d1a90
+SHA1: 108b3e87f37368afceb2900d74ca2920fffc7650
+MD5sum: 6b490c732e0684eb60df763a5d2b7952
+Description: debug symbols for ros-melodic-depthai
+Build-Ids: 64131fd3c92608e8033cfdf09f08e04f5d382832 8647f763586a5e881b57f78504b72aed6e4b4076 f7e0ed0e943f4e082d6e2d9da52b33f8d9bbded1
+
+Package: ros-melodic-depthai-examples-dbgsym
+Package-Type: ddeb
+Source: ros-melodic-depthai-examples
+Version: 2.5.3-3bionic~20221129
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 8311
+Depends: ros-melodic-depthai-examples (= 2.5.3-3bionic~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-melodic-depthai-examples/ros-melodic-depthai-examples-dbgsym_2.5.3-3bionic~20221129_armhf.ddeb
+Size: 8003712
+SHA256: 2bc724f28da03bdb75c6f99029bc19a61df1397b9bc04d48fa39bbaf8220f74e
+SHA1: e0c550e60a274d715946ff5d2e394cc1a27d1ba1
+MD5sum: 9d29ad4341c58b80f3f80b0f336c6af3
+Description: debug symbols for ros-melodic-depthai-examples
+Build-Ids: 6ab71c0a364a9b40e90effa2bec1bb3f50cdc3da a9f7e029712d312ce4be2fd77a35aa9706345b91 bc2c28cccfc11efe2075e772e79ab63475dbf91d c2479e793965c3a01226655eb409b4eacdc4b08a c9fc11ad5c6950e6c1a6f07a25bafba4eb0406b3 d7070865be5603a5e27971af5bdf72861fdef529 dcaba642e46a71c7ce7b8e150d8189fd66d2271a fe426fd03cb2d2c6dcad9a77de4d5b701f0b442f fe8ad987ebce9ea82268681f9b20654db19bc4c7
+

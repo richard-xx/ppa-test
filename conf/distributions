@@ -1,0 +1,39 @@
+Codename: xenial
+Limit: 2
+Architectures: i386 amd64 arm64 armhf source
+Components: main 
+UDebComponents: main 
+DDebComponents: main 
+SignWith: 360A71112379F7BD
+
+Codename: bionic
+Limit: 2
+Architectures: i386 amd64 arm64 armhf source
+Components: main 
+UDebComponents: main 
+DDebComponents: main 
+SignWith: 360A71112379F7BD
+
+Codename: focal
+Limit: 2
+Architectures: i386 amd64 arm64 armhf source
+Components: main 
+UDebComponents: main 
+DDebComponents: main 
+SignWith: 360A71112379F7BD
+
+Codename: jammy
+Limit: 2
+Architectures: i386 amd64 arm64 armhf source
+Components: main 
+UDebComponents: main 
+DDebComponents: main 
+SignWith: 360A71112379F7BD
+
+Codename: buster
+Limit: 2
+Architectures: amd64 arm64 source
+Components: main 
+UDebComponents: main 
+DDebComponents: main 
+SignWith: 360A71112379F7BD

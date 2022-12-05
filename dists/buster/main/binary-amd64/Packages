@@ -1,0 +1,146 @@
+Package: ros-noetic-depthai
+Version: 2.19.1-3buster~20221129
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 29756
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:4.2), libstdc++6 (>= 6), libopencv-dev, libusb-1.0-0-dev, nlohmann-json3-dev, ros-noetic-catkin
+Homepage: https://www.luxonis.com/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai/ros-noetic-depthai_2.19.1-3buster~20221129_amd64.deb
+Size: 12753532
+SHA256: f7544f6e1c652ca2141066391edf8415f5cca88f1ac6c440727735a430eea879
+SHA1: 13103563c0a72c0b346aa1a7aac3a46d291499ae
+MD5sum: 39741139ddb50f31245121f9eb8f9bb8
+Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
+
+Package: ros-noetic-depthai-bridge
+Version: 2.5.3-3buster~20221129
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 67844
+Depends: libboost-atomic1.67.0, libboost-chrono1.67.0, libboost-date-time1.67.0, libboost-filesystem1.67.0, libboost-program-options1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libboost-thread1.67.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc1 (>= 1:3.0), liblog4cxx10v5, libopencv-core3.2, libopencv-highgui3.2, libopencv-imgcodecs3.2, libopencv-imgproc3.2, libpocofoundation60, libpython3.7 (>= 3.7.0), libstdc++6 (>= 5.2), libtinyxml2-6a (>= 5.0.0), libboost-dev, libopencv-dev, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depthai, ros-noetic-depthai-ros-msgs, ros-noetic-image-transport, ros-noetic-robot-state-publisher, ros-noetic-ros-environment, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-stereo-msgs, ros-noetic-vision-msgs, ros-noetic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-bridge/ros-noetic-depthai-bridge_2.5.3-3buster~20221129_amd64.deb
+Size: 10533204
+SHA256: 98ac60dc42bcb3ba9a7c9dcd66162f5dccbd565e7cfbc1e14637e0fe438c86e2
+SHA1: 81eca7cec2d10f66f7a3c3fb16f23946e124a4bf
+MD5sum: 7f2a07d6bc28cb0952fb14995a5de097
+Description: The depthai_bridge package
+
+Package: ros-noetic-depthai-bridge-dbgsym
+Source: ros-noetic-depthai-bridge
+Version: 2.5.3-3buster~20221129
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 1556
+Depends: ros-noetic-depthai-bridge (= 2.5.3-3buster~20221129)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-noetic-depthai-bridge/ros-noetic-depthai-bridge-dbgsym_2.5.3-3buster~20221129_amd64.deb
+Size: 1521036
+SHA256: 21f726a1c480b455886b6f23c4824c9faa4f83036b0f829c65766ff128fa17d6
+SHA1: 2b836a70b47c221334c5d2efd69a4bc1ad1bf95b
+MD5sum: 28ef95d08835ff6ab345f8639d0e5ab3
+Description: debug symbols for ros-noetic-depthai-bridge
+Build-Ids: 6d3bcdb857747a0a763df354c8dc95896f50e9ba
+
+Package: ros-noetic-depthai-dbgsym
+Source: ros-noetic-depthai
+Version: 2.19.1-3buster~20221129
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 28942
+Depends: ros-noetic-depthai (= 2.19.1-3buster~20221129)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-noetic-depthai/ros-noetic-depthai-dbgsym_2.19.1-3buster~20221129_amd64.deb
+Size: 27441080
+SHA256: 808fcef001811e356243b1e7aa4a339da8701d63904cb9928413a40b461c8f00
+SHA1: e1c0d931bedcdb40355a270ee4eb219b8f86222b
+MD5sum: ef4bc3469b8774b823c56dd1f040f1d1
+Description: debug symbols for ros-noetic-depthai
+Build-Ids: 284bb58a3646d9753f19462fc393d8dd6454b0f1 84bc3e755ff046dfeddd69813bd361a13451cd23 e7073417090ba17fdb064dccbd248eb77137ed44
+
+Package: ros-noetic-depthai-examples
+Version: 2.5.3-3buster~20221129
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 27392
+Depends: libboost-atomic1.67.0, libboost-chrono1.67.0, libboost-date-time1.67.0, libboost-filesystem1.67.0, libboost-program-options1.67.0, libboost-regex1.67.0 (>= 1.67.0-10), libboost-system1.67.0, libboost-thread1.67.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc1 (>= 1:3.0), liblog4cxx10v5, libopencv-core3.2, libopencv-highgui3.2, libopencv-imgcodecs3.2, libopencv-imgproc3.2, libpocofoundation60, libpython3.7 (>= 3.7.0), libstdc++6 (>= 5.2), libtinyxml2-6a (>= 5.0.0), libuuid1 (>= 2.16), libopencv-dev, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depth-image-proc, ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-ros-msgs, ros-noetic-foxglove-msgs, ros-noetic-image-transport, ros-noetic-message-filters, ros-noetic-nodelet, ros-noetic-robot-state-publisher, ros-noetic-ros-environment, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-stereo-msgs, ros-noetic-vision-msgs, ros-noetic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-examples/ros-noetic-depthai-examples_2.5.3-3buster~20221129_amd64.deb
+Size: 21601600
+SHA256: 90e23ae8d3c6b7b52efa0d2573a0f81c476c1cca78aa2f363c5ade8afcb633af
+SHA1: 955f68c84c247e68363f4af975f7a8d983d7cbc9
+MD5sum: e00bfd4663013191fec908d688825ec9
+Description: The depthai_examples package
+
+Package: ros-noetic-depthai-examples-dbgsym
+Source: ros-noetic-depthai-examples
+Version: 2.5.3-3buster~20221129
+Auto-Built-Package: debug-symbols
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 9554
+Depends: ros-noetic-depthai-examples (= 2.5.3-3buster~20221129)
+Priority: optional
+Section: debug
+Filename: pool/main/r/ros-noetic-depthai-examples/ros-noetic-depthai-examples-dbgsym_2.5.3-3buster~20221129_amd64.deb
+Size: 9267708
+SHA256: e787c80b19855e69914691f9d9a4fa862db55383308c32671a26cd9b5e6eb763
+SHA1: 34dd5343f1b693ad05ecfefcd5cbb173ab1a33a1
+MD5sum: db105465edfbcf43e4eb96bc67188d30
+Description: debug symbols for ros-noetic-depthai-examples
+Build-Ids: 18038537a145bddf05912dc4be47ed5309bb066e 6fd4d47ec17e6ce3886e29dcc44b13e555eb74d4 98ba30ec0cce7dd98b96ea2e70b73a0a010a8626 9d350d8fe3862215da19a196180c61689cfa8e70 c8826243e3e0464e6b11c797111835c236692d10 dae2f108e4e883ba0865f63dd63dffbf1151782b dbd847596ee85633c4a37387f09fce5e5e7a7f18 ea8e7111280b88057b131a50d411f0a07fe0c614 f229ee3b7d2456a13d5fecd59cd5c361fb696c22
+
+Package: ros-noetic-depthai-ros
+Version: 2.5.3-3buster~20221129
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 15
+Depends: ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-examples, ros-noetic-depthai-ros-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-ros/ros-noetic-depthai-ros_2.5.3-3buster~20221129_amd64.deb
+Size: 2324
+SHA256: 66c19b9a4429077294c259f922571cd916fe545a36d6dbfeea9ce6d98d39071c
+SHA1: cf7f699140e589772963bcbe7a2a4d68ee6317c5
+MD5sum: 0e9f1b3372645f3fcbbedac3810a0e41
+Description: The depthai-ros package
+
+Package: ros-noetic-depthai-ros-msgs
+Version: 2.5.3-3buster~20221129
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 469
+Depends: ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-ros-msgs/ros-noetic-depthai-ros-msgs_2.5.3-3buster~20221129_amd64.deb
+Size: 39904
+SHA256: 78f12c518d724847f54ef3d09c8f88cb689505eea471e99c50a9c410bdf7c909
+SHA1: 5191a95a6845cb911e1d6108ed9f25fe70b18355
+MD5sum: 3fcac5e223112b533a202fa56f4bcd8b
+Description: Package to keep interface independent of the driver
+
+Package: ros-noetic-foxglove-msgs
+Version: 2.0.0-3buster~20220923
+Architecture: amd64
+Maintainer: Foxglove <ros-tooling@foxglove.dev>
+Installed-Size: 3749
+Depends: ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-visualization-msgs
+Homepage: https://foxglove.dev/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-foxglove-msgs/ros-noetic-foxglove-msgs_2.0.0-3buster~20220923_amd64.deb
+Size: 160428
+SHA256: 7997b478a4179660445eec45ad50955a662f645d9542fa4711f352140724e937
+SHA1: fb21b21bd0979bc90f519ee3e8a75e46a7fb1546
+MD5sum: bed5ea26808d1efa655b02914f1baa2e
+Description: foxglove_msgs provides visualization messages that are supported by Foxglove Studio.
+

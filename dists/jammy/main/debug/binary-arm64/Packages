@@ -1,0 +1,95 @@
+Package: ros-humble-depthai-bridge-dbgsym
+Package-Type: ddeb
+Source: ros-humble-depthai-bridge
+Version: 2.5.3-3jammy~20221129
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 1869
+Depends: ros-humble-depthai-bridge (= 2.5.3-3jammy~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-humble-depthai-bridge/ros-humble-depthai-bridge-dbgsym_2.5.3-3jammy~20221129_arm64.ddeb
+Size: 1810464
+SHA256: 852a74fcedfbae67af3555a3c840f1cb971446ec2d0f29b975d3ef3a615e9771
+SHA1: 9c311c288031ad791d4d4258fe3497816f2dd466
+MD5sum: 59e75d3d4f3e7ac3135391600b66c14f
+Description: debug symbols for ros-humble-depthai-bridge
+Build-Ids: f423eca01acc404ac4fc1b3127cca97ae2ab3c7c
+
+Package: ros-humble-depthai-dbgsym
+Package-Type: ddeb
+Source: ros-humble-depthai
+Version: 2.19.1-3jammy~20221129
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 18937
+Depends: ros-humble-depthai (= 2.19.1-3jammy~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-humble-depthai/ros-humble-depthai-dbgsym_2.19.1-3jammy~20221129_arm64.ddeb
+Size: 17354492
+SHA256: 756362fe63f165a33211b9d18ff408c24828e49477945eeae3386b159c1e6204
+SHA1: 784a563b2c9495a92a828d80393c6531a77030b9
+MD5sum: 74c898e1b344dfc8091d2a15f4aa2967
+Description: debug symbols for ros-humble-depthai
+Build-Ids: 47c63ffdd33996043e2ecad8232baad35d1e3d25 4b38ca8765777e7d1949b9083eb3924b57ffa6ac 7118c3be4facd1976ce95c581b1381277f4ca3a8
+
+Package: ros-humble-depthai-examples-dbgsym
+Package-Type: ddeb
+Source: ros-humble-depthai-examples
+Version: 2.5.3-3jammy~20221129
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 13148
+Depends: ros-humble-depthai-examples (= 2.5.3-3jammy~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-humble-depthai-examples/ros-humble-depthai-examples-dbgsym_2.5.3-3jammy~20221129_arm64.ddeb
+Size: 12275824
+SHA256: 583494f81369cffbccba8717514c57ff4a2e627aff3b3adceacf94f2a8960279
+SHA1: a58fd66f18e5eb4346980c8f7fe58b1d47f93bdc
+MD5sum: 40d4f8cc4c9fea5a34a75b71941fe8fb
+Description: debug symbols for ros-humble-depthai-examples
+Build-Ids: 1d488c78aaa38f7aff73ffbc247031957a5a1f36 3c4f4509d81c0d036cdb0ccd3e71d833e799688c 9681aa07408843dcc3af414c094a176c065fd203 cc3c15e2e7e3f0b647e1e91de41aea400ea1c206 d34c32c5c1dd6c11073030748d2ab2aa5705a265 db99ea58aa1ce59c7988bb8f35c5f0aeb719cc6f f895422a3119d7586f009ad67b71cf93502159c2
+
+Package: ros-humble-depthai-ros-msgs-dbgsym
+Package-Type: ddeb
+Source: ros-humble-depthai-ros-msgs
+Version: 2.5.3-3jammy~20221129
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 1062
+Depends: ros-humble-depthai-ros-msgs (= 2.5.3-3jammy~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-humble-depthai-ros-msgs/ros-humble-depthai-ros-msgs-dbgsym_2.5.3-3jammy~20221129_arm64.ddeb
+Size: 738836
+SHA256: 92c0359a2fa85f66d8f88f75d652b5d745856c38a4dda17977e9ec18abc3b49e
+SHA1: 95b050e3969b8ff483387425b0d25404923e1332
+MD5sum: 2f5fa908a38c00515bd52d212ef45295
+Description: debug symbols for ros-humble-depthai-ros-msgs
+Build-Ids: 1b1ddb84ebee318e64bc218877c65e472c8dafcf 426520ea842fdad5bbd7f750fe231ed4d3c785d3 46e816a840bf360de18d175fcfc2006a94702df5 704895012f973d3ad4aee10594cd56ff70498911 7eaf3782cb8544646a0d30448b5667f7c2466452 92521e207aa2584434de727c28b3bcc42c64cd05 adc0a53205ea57711ec0a30bfff569d48d343fc1 bd274f224b52d53f2118bd8eef8a636b3ebc4f20 c1c0288d75b495f9008b2762a6ea5237550a4a53 da0482fd8fd195bcf5fc1fe7aa90b87f9cb12174 e2441971d2fa994e3544334c332ab74c87493e8b fe0582735a9496fdf7e914a747e05a5b453e300f
+
+Package: ros-humble-foxglove-msgs-dbgsym
+Package-Type: ddeb
+Source: ros-humble-foxglove-msgs
+Version: 2.0.0-3jammy~20220923
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Foxglove <ros-tooling@foxglove.dev>
+Installed-Size: 7332
+Depends: ros-humble-foxglove-msgs (= 2.0.0-3jammy~20220923)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-humble-foxglove-msgs/ros-humble-foxglove-msgs-dbgsym_2.0.0-3jammy~20220923_arm64.ddeb
+Size: 5585584
+SHA256: 7eae3bbf0eede9938df2bdc8f9969dc89283b2fa33622e3ed64a0d86dee2e86e
+SHA1: e6efdc6af061f67608088f5a05a7d1bffe91d523
+MD5sum: 1dfcd62574ba8bc85e48979c63ab1368
+Description: debug symbols for ros-humble-foxglove-msgs
+Build-Ids: 1131cb7fdc12f18b9cb55180833ff1daad1b8b3a 15765814062873dd469d37197853481ffda3fc99 273803e7356e95c8c3d5988b1f87eeb3f490666e 3e671d62a1c9337ded13319d8b2ef7de9fa1fdad 44db8be9f02376f466cd84c302900fa32f6c79d3 4d9719498d6d57db9d8fd6e88caa1608ff47423c 4ffce4762d9bec7caca24a41f6acd8ac4974eefd 69dbf0812fa7a7bb18298e4fdf864755c60f4c3c 969395e67aa3b36efaa14d1bb9ebedd90e6c978a bbd08a9e9ce626eef291ea155fc40cf1f5fd7a2a efa74659b67b30a358f6aed28aafdb1d303f246c f7f0d3c20b716cc57712c771063ac73782b53bba
+

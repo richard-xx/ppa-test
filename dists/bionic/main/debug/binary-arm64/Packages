@@ -1,0 +1,57 @@
+Package: ros-melodic-depthai-bridge-dbgsym
+Package-Type: ddeb
+Source: ros-melodic-depthai-bridge
+Version: 2.5.3-3bionic~20221129
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 1185
+Depends: ros-melodic-depthai-bridge (= 2.5.3-3bionic~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-melodic-depthai-bridge/ros-melodic-depthai-bridge-dbgsym_2.5.3-3bionic~20221129_arm64.ddeb
+Size: 1145028
+SHA256: ccfa9505b0a80dc2162e08ec2e10b3984d4db4fd1c1e793cefcbe91b8315070c
+SHA1: d9b440afd1452a2e160261256b82cdbbf2c2bda8
+MD5sum: a4d7a388db2feb1624763b63ee718599
+Description: debug symbols for ros-melodic-depthai-bridge
+Build-Ids: 0104e79f2d1204215ad08bca0c92ef6ac9ffbe83
+
+Package: ros-melodic-depthai-dbgsym
+Package-Type: ddeb
+Source: ros-melodic-depthai
+Version: 2.19.1-3bionic~20221129
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 20546
+Depends: ros-melodic-depthai (= 2.19.1-3bionic~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-melodic-depthai/ros-melodic-depthai-dbgsym_2.19.1-3bionic~20221129_arm64.ddeb
+Size: 19306176
+SHA256: 3ee32eb9e6e554c4b4bc0ac5f19147f3de29fb18b53373824383c428d8db0c4b
+SHA1: d906981c7bad90fbf26bb18a2abfba1495b5c8ca
+MD5sum: 4834ed7588c72cb3500526ac8804fb67
+Description: debug symbols for ros-melodic-depthai
+Build-Ids: 0215a89afd7a1686e48e86bef9b4fca5bf7c680e 4098ff664de549ed5ae61515a1ecf8669e2fec0f c12b9d133fb66808b2330b98a4c6a493a7eebed6
+
+Package: ros-melodic-depthai-examples-dbgsym
+Package-Type: ddeb
+Source: ros-melodic-depthai-examples
+Version: 2.5.3-3bionic~20221129
+Auto-Built-Package: debug-symbols
+Architecture: arm64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 8418
+Depends: ros-melodic-depthai-examples (= 2.5.3-3bionic~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-melodic-depthai-examples/ros-melodic-depthai-examples-dbgsym_2.5.3-3bionic~20221129_arm64.ddeb
+Size: 8062084
+SHA256: 168c27e0dff5a9f8ecb117d20c1fdf76f72dd5df0173fcca11c8ffc40bacfe31
+SHA1: 3734983f72171ac3d9cb77a79cc8f75e5f92f090
+MD5sum: 9ccd3d7509a3e4c297049529d76c03a9
+Description: debug symbols for ros-melodic-depthai-examples
+Build-Ids: 149e3574d6f76ed83a0a29fda240a24aa27bea66 1dfea66ca270695c76c657a90dc0564e6e13010e 1ea030e743a8b69c36c73c1d32131c52cf29e33a 2361f8f1ec1d38a537a0063e4c2c46ef7e434163 2527629b4dcf181666eda3cca57ac703750ef5ac 542044ce6c8fcec2339f53a0ab0533c83c5bf4c1 a414aa24f0fe8558d7aa54120e4bdfe1f7bcf4bb a51d1ef4b9af6cf563249eca558ea5a5f0bd6234 cae61c3b175a1429ccb8635bb58caaa2c9d9eb0f
+

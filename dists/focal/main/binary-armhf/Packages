@@ -1,0 +1,92 @@
+Package: ros-noetic-depthai
+Version: 2.19.1-3focal~20221129
+Architecture: armhf
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 18830
+Depends: libc6 (>= 2.28), libgcc-s1 (>= 4.3), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, libusb-1.0-0-dev, nlohmann-json3-dev, ros-noetic-catkin
+Homepage: https://www.luxonis.com/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai/ros-noetic-depthai_2.19.1-3focal~20221129_armhf.deb
+Size: 10333356
+SHA256: 3f566f1da74b539cb62248dbf9196323a4e87c7aecb2abaf73abe797d4619c32
+SHA1: 988d5856010f5c4a8dcb9651a3f9767cd21ef46b
+MD5sum: 7bbca0f8de4f5184dc979cac73706150
+Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
+
+Package: ros-noetic-depthai-bridge
+Version: 2.5.3-3focal~20221129
+Architecture: armhf
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 67770
+Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.5), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libboost-dev, libopencv-dev, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depthai, ros-noetic-depthai-ros-msgs, ros-noetic-image-transport, ros-noetic-robot-state-publisher, ros-noetic-ros-environment, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-stereo-msgs, ros-noetic-vision-msgs, ros-noetic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-bridge/ros-noetic-depthai-bridge_2.5.3-3focal~20221129_armhf.deb
+Size: 10494212
+SHA256: 05a4649b21cd17537f9f1ef68b85198bb46316f8f7085a8c53f4099507e8ffcb
+SHA1: f5af3b17d4a5952395fe449a3a26fa497f436a96
+MD5sum: 15d72317cd03548775ef77c7fb931e71
+Description: The depthai_bridge package
+
+Package: ros-noetic-depthai-examples
+Version: 2.5.3-3focal~20221129
+Architecture: armhf
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 27028
+Depends: libc6 (>= 2.4), libconsole-bridge0.4, libgcc-s1 (>= 3.5), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-highgui4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depth-image-proc, ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-ros-msgs, ros-noetic-foxglove-msgs, ros-noetic-image-transport, ros-noetic-message-filters, ros-noetic-nodelet, ros-noetic-robot-state-publisher, ros-noetic-ros-environment, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-stereo-msgs, ros-noetic-vision-msgs, ros-noetic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-examples/ros-noetic-depthai-examples_2.5.3-3focal~20221129_armhf.deb
+Size: 21550380
+SHA256: 2a8089e1c5be683de8aee8b134bc349c43cb895df77e5334fbf1905e95ec2383
+SHA1: 682793b755ed7d9248cbe71cbfad52e24ed1697d
+MD5sum: 7977d758e00557a39faf6e352de9b32f
+Description: The depthai_examples package
+
+Package: ros-noetic-depthai-ros
+Version: 2.5.3-3focal~20221129
+Architecture: armhf
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 14
+Depends: ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-examples, ros-noetic-depthai-ros-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-ros/ros-noetic-depthai-ros_2.5.3-3focal~20221129_armhf.deb
+Size: 2000
+SHA256: e3cba633234bc18f8f75d27c775aa137027f157427c7cb32abf82bfcd92d9fc2
+SHA1: 4707e2d20cff7168f9b8958d06c1d13724e8453b
+MD5sum: d3023d7c9efe6850b7222f780a356686
+Description: The depthai-ros package
+
+Package: ros-noetic-depthai-ros-msgs
+Version: 2.5.3-3focal~20221129
+Architecture: armhf
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 465
+Depends: ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-ros-msgs/ros-noetic-depthai-ros-msgs_2.5.3-3focal~20221129_armhf.deb
+Size: 39264
+SHA256: 8b2c93d2ee730d12a7aaa89b674c4f88010333c79d0e175168a0499021d0c106
+SHA1: 8426ebc2054540180fb9fa2c8a8635ac0faee40b
+MD5sum: ce1f6c8adc6648dd1d3ab626a104174a
+Description: Package to keep interface independent of the driver
+
+Package: ros-noetic-foxglove-msgs
+Version: 2.0.0-3focal~20220923
+Architecture: armhf
+Maintainer: Foxglove <ros-tooling@foxglove.dev>
+Installed-Size: 3738
+Depends: ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-visualization-msgs
+Homepage: https://foxglove.dev/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-foxglove-msgs/ros-noetic-foxglove-msgs_2.0.0-3focal~20220923_armhf.deb
+Size: 158848
+SHA256: 9bf16199a69c794b917439e55cbffb334bde16ebc7cbacf6ec8b9c21ff41d81c
+SHA1: aff2d1278ff0e078a4511c3359ee697074d0fb83
+MD5sum: 56054cb2cb13be76388a0edf7c438308
+Description: foxglove_msgs provides visualization messages that are supported by Foxglove Studio.
+

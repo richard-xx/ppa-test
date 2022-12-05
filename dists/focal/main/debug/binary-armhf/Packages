@@ -1,0 +1,57 @@
+Package: ros-noetic-depthai-bridge-dbgsym
+Package-Type: ddeb
+Source: ros-noetic-depthai-bridge
+Version: 2.5.3-3focal~20221129
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 1607
+Depends: ros-noetic-depthai-bridge (= 2.5.3-3focal~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-noetic-depthai-bridge/ros-noetic-depthai-bridge-dbgsym_2.5.3-3focal~20221129_armhf.ddeb
+Size: 1575768
+SHA256: f0a71fa2d5e2f9a67de9683206427f097142a1d56661107529ab520466e4dedb
+SHA1: ca04af9091549e01b3063594408873b0daf92717
+MD5sum: 5645803c6550c788aed48d0deeeda572
+Description: debug symbols for ros-noetic-depthai-bridge
+Build-Ids: c9d2f762f2b9625804dbafdf481eae2fd99f449d
+
+Package: ros-noetic-depthai-dbgsym
+Package-Type: ddeb
+Source: ros-noetic-depthai
+Version: 2.19.1-3focal~20221129
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 28632
+Depends: ros-noetic-depthai (= 2.19.1-3focal~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-noetic-depthai/ros-noetic-depthai-dbgsym_2.19.1-3focal~20221129_armhf.ddeb
+Size: 28272328
+SHA256: d28bfcedae4b9caf5fb850626bf9d304f64f0fcf0e938ea52530fd16aa8e7ab1
+SHA1: d1e42d6555e92874cab583e6b508f749376f5f87
+MD5sum: 8f98b3730e45e4e037be424ae647e4f5
+Description: debug symbols for ros-noetic-depthai
+Build-Ids: 12b47dfb4e054f300d47fbf5e6a6d246e22c15c7 78fcbd06c8ba037a355928f3dc0e91cbb6637c6d 9b3a88b34fea21a727b40fafef46c8ee9a89c854
+
+Package: ros-noetic-depthai-examples-dbgsym
+Package-Type: ddeb
+Source: ros-noetic-depthai-examples
+Version: 2.5.3-3focal~20221129
+Auto-Built-Package: debug-symbols
+Architecture: armhf
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 10021
+Depends: ros-noetic-depthai-examples (= 2.5.3-3focal~20221129)
+Priority: extra
+Section: debug
+Filename: pool/main/r/ros-noetic-depthai-examples/ros-noetic-depthai-examples-dbgsym_2.5.3-3focal~20221129_armhf.ddeb
+Size: 9738020
+SHA256: ab20754dd1055664b0473f651ed069b3fa900979b8e5e7dfec5574e55332f9a3
+SHA1: 4ac5147f16c60d4cf46f3605e33614e57fe1be33
+MD5sum: a7a0a523e5f47ce55efcd9b762b97ecf
+Description: debug symbols for ros-noetic-depthai-examples
+Build-Ids: 1a07d540de7ecb9b43617838e4abb8919b447032 1a3a2722da09cd66d1650cd5b97294c959da4402 1d97517e71a4ebbc2241f14307ccc5a206ea37de 6517ca5637d0c15eeaf5dc38959bfc85feab1c47 9e2c1687f8ed91c0b36995612ba7700a41fdf38d a9b96bfa10123787e0fd8888f606c3ba00640ab9 a9f0ee161d7074b67386f36f1fa7f7d0587bc998 c860a8d3bc9b79adfb962110a8ceefa126ba7460 efc555546c22dc9316b178f7104a5d1038754764
+

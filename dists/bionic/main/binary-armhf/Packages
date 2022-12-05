@@ -1,0 +1,92 @@
+Package: ros-melodic-depthai
+Version: 2.19.1-3bionic~20221129
+Architecture: armhf
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 20889
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:4.3), libstdc++6 (>= 6), libopencv-dev, libusb-1.0-0-dev, nlohmann-json-dev, ros-melodic-catkin
+Homepage: https://www.luxonis.com/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-melodic-depthai/ros-melodic-depthai_2.19.1-3bionic~20221129_armhf.deb
+Size: 11127280
+SHA256: a27f8cf25829355e1d1ce23a5a2e43ecf763d063b30fbe4f759f467d850817cc
+SHA1: 6e6a0426a68c59745b72bd4f7401b26527a5355e
+MD5sum: c7057a4f2faab812709e6fc237e3afd1
+Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
+
+Package: ros-melodic-depthai-bridge
+Version: 2.5.3-3bionic~20221129
+Architecture: armhf
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 67770
+Depends: libc6 (>= 2.4), libgcc1 (>= 1:3.5), libopencv-core3.2, libopencv-imgproc3.2, libstdc++6 (>= 5.2), libboost-dev, libopencv-dev, ros-melodic-camera-info-manager, ros-melodic-cv-bridge, ros-melodic-depthai, ros-melodic-depthai-ros-msgs, ros-melodic-image-transport, ros-melodic-robot-state-publisher, ros-melodic-ros-environment, ros-melodic-roscpp, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-stereo-msgs, ros-melodic-vision-msgs, ros-melodic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-melodic-depthai-bridge/ros-melodic-depthai-bridge_2.5.3-3bionic~20221129_armhf.deb
+Size: 10501976
+SHA256: c44bc06dbb7e01ec02bd7cf59136cec31634918a7eaea0b299f9dfff73d6328b
+SHA1: 139752daa1a10adf043b7323fd4d9f9c2298148e
+MD5sum: ef97556644c278625f130ac1963999f3
+Description: The depthai_bridge package
+
+Package: ros-melodic-depthai-examples
+Version: 2.5.3-3bionic~20221129
+Architecture: armhf
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 27004
+Depends: libboost-system1.65.1, libc6 (>= 2.4), libconsole-bridge0.4, libgcc1 (>= 1:3.5), libopencv-core3.2, libopencv-highgui3.2, libstdc++6 (>= 5.2), libopencv-dev, ros-melodic-camera-info-manager, ros-melodic-cv-bridge, ros-melodic-depth-image-proc, ros-melodic-depthai, ros-melodic-depthai-bridge, ros-melodic-depthai-ros-msgs, ros-melodic-foxglove-msgs, ros-melodic-image-transport, ros-melodic-message-filters, ros-melodic-nodelet, ros-melodic-robot-state-publisher, ros-melodic-ros-environment, ros-melodic-roscpp, ros-melodic-rospy, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-stereo-msgs, ros-melodic-vision-msgs, ros-melodic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-melodic-depthai-examples/ros-melodic-depthai-examples_2.5.3-3bionic~20221129_armhf.deb
+Size: 21555752
+SHA256: ac034a482d1a8c46bef4f073f2df65e0d9b663a7411ae080cc77e967cfce5c79
+SHA1: c3c0fa1454f1a7a1e300b636696a57a034af4b61
+MD5sum: d8f21c53220d5a3d590e7b666b3a9686
+Description: The depthai_examples package
+
+Package: ros-melodic-depthai-ros
+Version: 2.5.3-3bionic~20221129
+Architecture: armhf
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 14
+Depends: ros-melodic-depthai, ros-melodic-depthai-bridge, ros-melodic-depthai-examples, ros-melodic-depthai-ros-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-melodic-depthai-ros/ros-melodic-depthai-ros_2.5.3-3bionic~20221129_armhf.deb
+Size: 2008
+SHA256: f017baa560fa30a0ac0eafa6e9760aa1c750e7a47fe4b1050568d6fe770f5507
+SHA1: 284fa87810b33fbca61fe1482e24ba4044495919
+MD5sum: efe8cb903f661ad473cd6aa1a7debc1b
+Description: The depthai-ros package
+
+Package: ros-melodic-depthai-ros-msgs
+Version: 2.5.3-3bionic~20221129
+Architecture: armhf
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 482
+Depends: ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-sensor-msgs, ros-melodic-std-msgs, ros-melodic-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-melodic-depthai-ros-msgs/ros-melodic-depthai-ros-msgs_2.5.3-3bionic~20221129_armhf.deb
+Size: 39148
+SHA256: a824356013781bb9a54609f3129a1d978931393dbd09fcaa30e3fa32d64ad356
+SHA1: 27bbcbe52bdf02872b4cc4dc8e398f4b89a0732c
+MD5sum: a6bb784433ca8d2f4e104d1eca813991
+Description: Package to keep interface independent of the driver
+
+Package: ros-melodic-foxglove-msgs
+Version: 2.0.0-3bionic~20220923
+Architecture: armhf
+Maintainer: Foxglove <ros-tooling@foxglove.dev>
+Installed-Size: 3897
+Depends: ros-melodic-geometry-msgs, ros-melodic-message-runtime, ros-melodic-visualization-msgs
+Homepage: https://foxglove.dev/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-melodic-foxglove-msgs/ros-melodic-foxglove-msgs_2.0.0-3bionic~20220923_armhf.deb
+Size: 161216
+SHA256: 7c0fe03df9a928fecc0f676c5c46049fa72914ec7b3c92456e4497e33a925def
+SHA1: a79fb5e978291085fa32182556ea3fdfc07154d9
+MD5sum: f5a1b199ae0dfe8f010fd25945ab2afc
+Description: foxglove_msgs provides visualization messages that are supported by Foxglove Studio.
+
