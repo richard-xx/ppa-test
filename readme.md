@@ -2,7 +2,6 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/richard-xx/ros-depthai-repo) ![GitHub contributors](https://img.shields.io/github/contributors/richard-xx/ros-depthai-repo)
 
-
 ## Contains
 
 <details>
@@ -21,6 +20,15 @@
     </li>
     <li>
       <p>depthai-examples</p>
+    </li>
+    <li>
+      <p>depthai-ros-driver</p>
+    </li>
+    <li>
+      <p>depthai-descriptions</p>
+    </li>
+    <li>
+      <p>depthai-filters</p>
     </li>
     <li>
       <p>depthai-ros</p>
@@ -69,12 +77,6 @@
             <li>arm64 / armhf / amd64</li>
           </ul>
         </li>
-        <li>
-          <p>Debian 10</p>
-          <ul>
-            <li>arm64 / amd64</li>
-          </ul>
-        </li>
       </ul>
     </li>
   </ul>
@@ -89,17 +91,6 @@
   <ul>
     <li>
       <p>Foxy</p>
-      <ul>
-        <li>
-          <p>Ubuntu 20.04</p>
-          <ul>
-            <li>arm64 / amd64</li>
-          </ul>
-        </li>
-      </ul>
-    </li>
-    <li>
-      <p>Galactic</p>
       <ul>
         <li>
           <p>Ubuntu 20.04</p>

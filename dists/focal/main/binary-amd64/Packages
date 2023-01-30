@@ -1,276 +1,548 @@
 Package: ros-foxy-depthai
-Version: 2.19.1-3focal~20221129
+Version: 2.23.0-3focal~20231117
 Architecture: amd64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 21244
+Installed-Size: 21631
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 4.2), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, libusb-1.0-0-dev, nlohmann-json3-dev
 Homepage: https://www.luxonis.com/
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-foxy-depthai/ros-foxy-depthai_2.19.1-3focal~20221129_amd64.deb
-Size: 10492616
-SHA256: d3d3b4e166d834b302c8655db983a9abdb150ce7846e0e895e63181561c339ab
-SHA1: 3ff45f75b09db9228fcf6f33a292513200a8afbd
-MD5sum: 75f1354cbc0303f5e46c9cb8e9e1e25e
+Filename: pool/main/r/ros-foxy-depthai/ros-foxy-depthai_2.23.0-3focal~20231117_amd64.deb
+Size: 10553128
+SHA256: 66f78e0627fc87b1187189850ed1be5b83ce3664c9a756343250c898c75ae68e
+SHA1: 9b6bf8ce0f57dcde9b9fb648e7f7e9b99a540932
+MD5sum: 4770bc847aee7736160147f8591bb9c9
+Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
+
+Package: ros-foxy-depthai
+Version: 2.22.0-3focal~20230808
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 21484
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 4.2), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, libusb-1.0-0-dev, nlohmann-json3-dev
+Homepage: https://www.luxonis.com/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-foxy-depthai/ros-foxy-depthai_2.22.0-3focal~20230808_amd64.deb
+Size: 10439140
+SHA256: b3a9d612544089dd88376dcb45ac125b0a8a7bd1e98b850d50297cded59dcd9d
+SHA1: f89cc5b017cd6434fd24cc74e719cae839a2c4d0
+MD5sum: 50cd53a2c4935000c326051bc911e29a
 Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
 
 Package: ros-foxy-depthai-bridge
-Version: 2.5.3-3focal~20221129
+Version: 2.7.1-3focal~20230808
 Architecture: amd64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 67892
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libboost-dev, libopencv-dev, ros-foxy-camera-info-manager, ros-foxy-cv-bridge, ros-foxy-depthai, ros-foxy-depthai-ros-msgs, ros-foxy-image-transport, ros-foxy-rclcpp, ros-foxy-robot-state-publisher, ros-foxy-ros-environment, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-stereo-msgs, ros-foxy-vision-msgs, ros-foxy-xacro
+Installed-Size: 297
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgcodecs4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libboost-dev, libopencv-dev, ros-foxy-camera-info-manager, ros-foxy-cv-bridge, ros-foxy-depthai, ros-foxy-depthai-ros-msgs, ros-foxy-image-transport, ros-foxy-rclcpp, ros-foxy-robot-state-publisher, ros-foxy-ros-environment, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-stereo-msgs, ros-foxy-vision-msgs, ros-foxy-xacro
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-foxy-depthai-bridge/ros-foxy-depthai-bridge_2.5.3-3focal~20221129_amd64.deb
-Size: 10503384
-SHA256: 033eb73d22a79b16439253ff77d909a7168337082b7ecb4253a97f4835ca8ea8
-SHA1: 18e5cc6a8ad7887a5e93b8a678c8fcc7779ebf76
-MD5sum: 8787ab42a15b728fbe0cbac5c96e9b6d
+Filename: pool/main/r/ros-foxy-depthai-bridge/ros-foxy-depthai-bridge_2.7.1-3focal~20230808_amd64.deb
+Size: 70632
+SHA256: d604e72fdc5104179bf475383f947c8940a220bea2be31aab10f1c98dc28a4a9
+SHA1: c1337504abd2796bd54340cb2aee81c2c9111ec0
+MD5sum: d0884fff920fc40b2044afb5249938a3
 Description: The depthai_bridge package
 
-Package: ros-foxy-depthai-examples
-Version: 2.5.3-3focal~20221129
+Package: ros-foxy-depthai-bridge
+Version: 2.7.1-3focal~20230428
 Architecture: amd64
-Maintainer: sachin <sachin@luxonis.com>
-Installed-Size: 27864
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libopencv-dev, ros-foxy-camera-info-manager, ros-foxy-cv-bridge, ros-foxy-depth-image-proc, ros-foxy-depthai, ros-foxy-depthai-bridge, ros-foxy-depthai-ros-msgs, ros-foxy-foxglove-msgs, ros-foxy-image-transport, ros-foxy-rclcpp, ros-foxy-robot-state-publisher, ros-foxy-ros-environment, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-stereo-msgs, ros-foxy-vision-msgs, ros-foxy-xacro
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 297
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgcodecs4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libboost-dev, libopencv-dev, ros-foxy-camera-info-manager, ros-foxy-cv-bridge, ros-foxy-depthai, ros-foxy-depthai-ros-msgs, ros-foxy-image-transport, ros-foxy-rclcpp, ros-foxy-robot-state-publisher, ros-foxy-ros-environment, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-stereo-msgs, ros-foxy-vision-msgs, ros-foxy-xacro
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-foxy-depthai-examples/ros-foxy-depthai-examples_2.5.3-3focal~20221129_amd64.deb
-Size: 21632304
-SHA256: 791aa49a7c42a53888332ab2daf11a84fda3aa0355322ea47c3901ce41ccff4c
-SHA1: 2f45c760b1f3e641e23e8ce51abe5f246526e212
-MD5sum: b097799c8a51f88a5fe94709a7cb033d
+Filename: pool/main/r/ros-foxy-depthai-bridge/ros-foxy-depthai-bridge_2.7.1-3focal~20230428_amd64.deb
+Size: 70592
+SHA256: b18cfd9681a9b6bf05c8419eab9d0b185b93484fddcf73d806b98f5751166ab0
+SHA1: 6d88f1443c1d139a28319d504572d3b9b25b96e6
+MD5sum: e5b6ffe5a9a4f1909f64d7ece375306d
+Description: The depthai_bridge package
+
+Package: ros-foxy-depthai-descriptions
+Version: 2.7.1-3focal~20230808
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 67615
+Depends: ros-foxy-robot-state-publisher, ros-foxy-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-foxy-depthai-descriptions/ros-foxy-depthai-descriptions_2.7.1-3focal~20230808_amd64.deb
+Size: 10429236
+SHA256: 4cac055185c29ec24fded083be38ed58a5eb8f7da7682e070efdec00d36adc32
+SHA1: 14a78831433da2bf034c257968a907c42b4f828e
+MD5sum: ddca9f919becb1611d84472f33f8578f
+Description: The depthai_descriptions package
+
+Package: ros-foxy-depthai-descriptions
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 67615
+Depends: ros-foxy-robot-state-publisher, ros-foxy-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-foxy-depthai-descriptions/ros-foxy-depthai-descriptions_2.7.1-3focal~20230428_amd64.deb
+Size: 10414124
+SHA256: 3f6f9cd9b5f026b10d35827a0f82e52fa4130b19923f5e3de81092b585879461
+SHA1: e25b7610c2eb278bb0971caab739ede3c1479e7a
+MD5sum: 1441d11bbd7925c1e84a7a018d453bdc
+Description: The depthai_descriptions package
+
+Package: ros-foxy-depthai-examples
+Version: 2.7.1-3focal~20230808
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 32234
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libopencv-dev, ros-foxy-camera-info-manager, ros-foxy-cv-bridge, ros-foxy-depth-image-proc, ros-foxy-depthai, ros-foxy-depthai-bridge, ros-foxy-depthai-descriptions, ros-foxy-depthai-ros-msgs, ros-foxy-foxglove-msgs, ros-foxy-image-transport, ros-foxy-rclcpp, ros-foxy-robot-state-publisher, ros-foxy-ros-environment, ros-foxy-rviz-imu-plugin, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-stereo-msgs, ros-foxy-vision-msgs, ros-foxy-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-foxy-depthai-examples/ros-foxy-depthai-examples_2.7.1-3focal~20230808_amd64.deb
+Size: 25386472
+SHA256: 1feb415e878e4a6da6327b7620da1236f0e0f69224500c087bd5bfcb68102d21
+SHA1: 1396e527ce5ae0014d682dec15fb0b739cb350ec
+MD5sum: 3dcb1030215c106941c78468d833417b
 Description: The depthai_examples package
 
+Package: ros-foxy-depthai-examples
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 32254
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libopencv-dev, ros-foxy-camera-info-manager, ros-foxy-cv-bridge, ros-foxy-depth-image-proc, ros-foxy-depthai, ros-foxy-depthai-bridge, ros-foxy-depthai-descriptions, ros-foxy-depthai-ros-msgs, ros-foxy-foxglove-msgs, ros-foxy-image-transport, ros-foxy-rclcpp, ros-foxy-robot-state-publisher, ros-foxy-ros-environment, ros-foxy-rviz-imu-plugin, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-stereo-msgs, ros-foxy-vision-msgs, ros-foxy-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-foxy-depthai-examples/ros-foxy-depthai-examples_2.7.1-3focal~20230428_amd64.deb
+Size: 25401652
+SHA256: 92937c534e76c5c7151a15d3793ab5030c8ef941cf91cdba10cb229e0ed408ac
+SHA1: 8a786acf16d8a26972cbbeae226b053da902208e
+MD5sum: c772a1b60e9905ec341ae848054a8983
+Description: The depthai_examples package
+
+Package: ros-foxy-depthai-filters
+Version: 2.7.1-3focal~20230808
+Architecture: amd64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 1325
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-contrib4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), ros-foxy-console-bridge-vendor, libopencv-dev, ros-foxy-cv-bridge, ros-foxy-image-transport, ros-foxy-message-filters, ros-foxy-rclcpp, ros-foxy-rclcpp-components, ros-foxy-sensor-msgs, ros-foxy-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-foxy-depthai-filters/ros-foxy-depthai-filters_2.7.1-3focal~20230808_amd64.deb
+Size: 195128
+SHA256: 17ebb93c34b756c08eec04e93b8fd35d0151a3ac556bbbb62449898de28bba5e
+SHA1: f1047b0e2ef9170931af2f812a406bfcf7684e1a
+MD5sum: 7841e74da7019d24232a87bd23db696e
+Description: Depthai filters package
+
+Package: ros-foxy-depthai-filters
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 1337
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-contrib4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), ros-foxy-console-bridge-vendor, libopencv-dev, ros-foxy-cv-bridge, ros-foxy-image-transport, ros-foxy-message-filters, ros-foxy-rclcpp, ros-foxy-rclcpp-components, ros-foxy-sensor-msgs, ros-foxy-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-foxy-depthai-filters/ros-foxy-depthai-filters_2.7.1-3focal~20230428_amd64.deb
+Size: 197784
+SHA256: 307b937e416e527ac00b18f135c9dc54471ce55604a5f5f8fc54473d65e318a7
+SHA1: a941eade869f3ed29fbd173a5dfae5ab1b4ccff9
+MD5sum: fa9ecbdbe5a5ba4028ebc4d7d393ba61
+Description: Depthai filters package
+
 Package: ros-foxy-depthai-ros
-Version: 2.5.3-3focal~20221129
+Version: 2.7.1-3focal~20230808
 Architecture: amd64
 Maintainer: sachin <sachin@luxonis.com>
 Installed-Size: 40
-Depends: ros-foxy-depthai, ros-foxy-depthai-bridge, ros-foxy-depthai-examples, ros-foxy-depthai-ros-msgs
+Depends: ros-foxy-depthai, ros-foxy-depthai-bridge, ros-foxy-depthai-descriptions, ros-foxy-depthai-examples, ros-foxy-depthai-ros-driver, ros-foxy-depthai-ros-msgs
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-foxy-depthai-ros/ros-foxy-depthai-ros_2.5.3-3focal~20221129_amd64.deb
-Size: 5056
-SHA256: 55fe442e82ffc3c27274aa60b0cb64478305a6be2a95c1ed0eb0819db7ff6523
-SHA1: f6a5ef78ec37b7e37f5a804a4cd63376944e3e47
-MD5sum: 29b5d9d560d7ef5a6564f601be5313d2
+Filename: pool/main/r/ros-foxy-depthai-ros/ros-foxy-depthai-ros_2.7.1-3focal~20230808_amd64.deb
+Size: 5404
+SHA256: c12691cb92234325b1d1c91ee7a9d05a6bd4d023a1cf6f92d991ae4ed6612ed3
+SHA1: 1c8682a37d849e2f3d8eb2d5f80bc5831e32c03d
+MD5sum: 729ce19e7af0ae7defc947d7bfe6c753
 Description: The depthai-ros package
 
+Package: ros-foxy-depthai-ros
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 40
+Depends: ros-foxy-depthai, ros-foxy-depthai-bridge, ros-foxy-depthai-descriptions, ros-foxy-depthai-examples, ros-foxy-depthai-ros-driver, ros-foxy-depthai-ros-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-foxy-depthai-ros/ros-foxy-depthai-ros_2.7.1-3focal~20230428_amd64.deb
+Size: 5408
+SHA256: e0f3cddcc6bd48aba2d3c40362fdeae65017a5809cd81c2116ed5c7b0bd976dc
+SHA1: 68767403034e3d3b804332ae93350fe0e515ef14
+MD5sum: 0099fc0bf02048d833d465109562f830
+Description: The depthai-ros package
+
+Package: ros-foxy-depthai-ros-driver
+Version: 2.7.1-3focal~20230808
+Architecture: amd64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 1884
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), ros-foxy-console-bridge-vendor, ros-foxy-ament-cmake-auto, ros-foxy-composition, ros-foxy-cv-bridge, ros-foxy-depthai, ros-foxy-depthai-bridge, ros-foxy-depthai-descriptions, ros-foxy-diagnostic-msgs, ros-foxy-image-pipeline, ros-foxy-image-transport, ros-foxy-image-transport-plugins, ros-foxy-rclcpp, ros-foxy-rclcpp-components, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-std-srvs, ros-foxy-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-foxy-depthai-ros-driver/ros-foxy-depthai-ros-driver_2.7.1-3focal~20230808_amd64.deb
+Size: 368332
+SHA256: 32a94b3fd73cabdaf7a91197ed888d8771be9aa9c7e10366e0e4231af9bb3da9
+SHA1: c47dcce8478bcc29596b7f1b39dcf344f0675bec
+MD5sum: 1e9ea2b3befe738d190c50a2b7ef44fa
+Description: Depthai ROS Monolithic node.
+
+Package: ros-foxy-depthai-ros-driver
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 1900
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), ros-foxy-console-bridge-vendor, ros-foxy-ament-cmake-auto, ros-foxy-composition, ros-foxy-cv-bridge, ros-foxy-depthai, ros-foxy-depthai-bridge, ros-foxy-depthai-descriptions, ros-foxy-diagnostic-msgs, ros-foxy-image-pipeline, ros-foxy-image-transport, ros-foxy-image-transport-plugins, ros-foxy-rclcpp, ros-foxy-rclcpp-components, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-std-srvs, ros-foxy-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-foxy-depthai-ros-driver/ros-foxy-depthai-ros-driver_2.7.1-3focal~20230428_amd64.deb
+Size: 370476
+SHA256: 88550bbee18ecb286ef651d6e0a99211887ee924a8dde8d2f3b06b7595a8fe67
+SHA1: b7672a6ed4da7c204d40a278ad5192f34c47f63e
+MD5sum: 74aa8b9fb6a778450cecf8faabf4ede8
+Description: Depthai ROS Monolithic node.
+
 Package: ros-foxy-depthai-ros-msgs
-Version: 2.5.3-3focal~20221129
+Version: 2.7.1-3focal~20230808
 Architecture: amd64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 1099
+Installed-Size: 1109
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-foxy-fastcdr, ros-foxy-builtin-interfaces, ros-foxy-geometry-msgs, ros-foxy-rclcpp, ros-foxy-rosidl-default-generators, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-vision-msgs
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-foxy-depthai-ros-msgs/ros-foxy-depthai-ros-msgs_2.5.3-3focal~20221129_amd64.deb
-Size: 93200
-SHA256: 7930d55c4dcbe7d2923c214049fcc56942691aa58b67496bc6a4c9e439cadf4f
-SHA1: 3aa66254a24c4a8efd7029caebecceaa33efdee5
-MD5sum: 26ca0e451fcf182cbef4928c99aee728
+Filename: pool/main/r/ros-foxy-depthai-ros-msgs/ros-foxy-depthai-ros-msgs_2.7.1-3focal~20230808_amd64.deb
+Size: 93988
+SHA256: 48529e2903c51cf4eb26427c500220adda2eabd0052eea8547efb3b41cd08e5d
+SHA1: 03273cc2d70a21bbd73a7bc21c8b90355f40c95e
+MD5sum: 6ef15ff0a881c00720ced84a8065f99e
+Description: Package to keep interface independent of the driver
+
+Package: ros-foxy-depthai-ros-msgs
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 1098
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-foxy-fastcdr, ros-foxy-builtin-interfaces, ros-foxy-geometry-msgs, ros-foxy-rclcpp, ros-foxy-rosidl-default-generators, ros-foxy-sensor-msgs, ros-foxy-std-msgs, ros-foxy-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-foxy-depthai-ros-msgs/ros-foxy-depthai-ros-msgs_2.7.1-3focal~20230428_amd64.deb
+Size: 93104
+SHA256: 0148420605116aed9b0edb8b342daa58cdb2c9e73ccec233abdefb4c8d99a86e
+SHA1: eb1c473ff154545dfcb0587c9b01c289fc189b89
+MD5sum: 29a745e87efd35274f070e3d02765ad0
 Description: Package to keep interface independent of the driver
 
 Package: ros-foxy-foxglove-msgs
-Version: 2.0.0-3focal~20220923
+Version: 3.0.0-3focal~20231115
 Architecture: amd64
 Maintainer: Foxglove <ros-tooling@foxglove.dev>
-Installed-Size: 5654
+Installed-Size: 6548
 Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-foxy-fastcdr, ros-foxy-geometry-msgs, ros-foxy-rosidl-default-runtime, ros-foxy-visualization-msgs
 Homepage: https://foxglove.dev/
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-foxy-foxglove-msgs/ros-foxy-foxglove-msgs_2.0.0-3focal~20220923_amd64.deb
-Size: 390696
-SHA256: 44a8ee7312df1493d7ba381705ecef157abd935809fc294c246e76f149ffe691
-SHA1: 884ab4972f0d8e891d71a981ffffb3ee572a9d67
-MD5sum: ab1c59059aa060759a75e82701e50849
+Filename: pool/main/r/ros-foxy-foxglove-msgs/ros-foxy-foxglove-msgs_3.0.0-3focal~20231115_amd64.deb
+Size: 442404
+SHA256: 91250f7b68c2da5619b11a45e22a9db7bf70070e289d0699ce6826f15dbfc174
+SHA1: fee9fe44fb3904abab4b8e3c3e993710eee6aeb5
+MD5sum: d9ed29eb4c3c9d206831c49096096f8d
 Description: foxglove_msgs provides visualization messages that are supported by Foxglove Studio.
 
-Package: ros-galactic-depthai
-Version: 2.19.1-3focal~20221129
-Architecture: amd64
-Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 21245
-Depends: libc6 (>= 2.17), libgcc-s1 (>= 4.2), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, libusb-1.0-0-dev, nlohmann-json3-dev
-Homepage: https://www.luxonis.com/
-Priority: optional
-Section: misc
-Filename: pool/main/r/ros-galactic-depthai/ros-galactic-depthai_2.19.1-3focal~20221129_amd64.deb
-Size: 10492452
-SHA256: 10ba9c0e35bcde683c6842012bef32d3ea3a562a843c7f1c6ead54edd6b82416
-SHA1: 5edbda9643d1899cdd68d8474409f26279edfd28
-MD5sum: 4a7d8fda88b9ae28d5f9172e36765ab8
-Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
-
-Package: ros-galactic-depthai-bridge
-Version: 2.5.3-3focal~20221129
-Architecture: amd64
-Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 67898
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libboost-dev, libopencv-dev, ros-galactic-camera-info-manager, ros-galactic-cv-bridge, ros-galactic-depthai, ros-galactic-depthai-ros-msgs, ros-galactic-image-transport, ros-galactic-rclcpp, ros-galactic-robot-state-publisher, ros-galactic-ros-environment, ros-galactic-sensor-msgs, ros-galactic-std-msgs, ros-galactic-stereo-msgs, ros-galactic-vision-msgs, ros-galactic-xacro
-Priority: optional
-Section: misc
-Filename: pool/main/r/ros-galactic-depthai-bridge/ros-galactic-depthai-bridge_2.5.3-3focal~20221129_amd64.deb
-Size: 10477388
-SHA256: acd37fd20d08a4966518a4cef20e71f7ca8672442899e306e6f47e257e7f4d13
-SHA1: ca4f1cf7dc29b86b5ba3b34e8bb1f3e81628baad
-MD5sum: fc2e6acc99ffdeedd2cf8adc24854627
-Description: The depthai_bridge package
-
-Package: ros-galactic-depthai-examples
-Version: 2.5.3-3focal~20221129
-Architecture: amd64
-Maintainer: sachin <sachin@luxonis.com>
-Installed-Size: 28358
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libstdc++6 (>= 9), libopencv-dev, ros-galactic-camera-info-manager, ros-galactic-cv-bridge, ros-galactic-depth-image-proc, ros-galactic-depthai, ros-galactic-depthai-bridge, ros-galactic-depthai-ros-msgs, ros-galactic-foxglove-msgs, ros-galactic-image-transport, ros-galactic-rclcpp, ros-galactic-robot-state-publisher, ros-galactic-ros-environment, ros-galactic-sensor-msgs, ros-galactic-std-msgs, ros-galactic-stereo-msgs, ros-galactic-vision-msgs, ros-galactic-xacro
-Priority: optional
-Section: misc
-Filename: pool/main/r/ros-galactic-depthai-examples/ros-galactic-depthai-examples_2.5.3-3focal~20221129_amd64.deb
-Size: 21725716
-SHA256: 41ddb88069ec406b8a3eaffff4353ae912e7d79bdd78fb226430d0c0814f3ce7
-SHA1: 39893938f1c6a028963331484a950a74798de1ac
-MD5sum: bb7fd28525037f50709a9b1d59f2c053
-Description: The depthai_examples package
-
-Package: ros-galactic-depthai-ros
-Version: 2.5.3-3focal~20221129
-Architecture: amd64
-Maintainer: sachin <sachin@luxonis.com>
-Installed-Size: 41
-Depends: ros-galactic-depthai, ros-galactic-depthai-bridge, ros-galactic-depthai-examples, ros-galactic-depthai-ros-msgs
-Priority: optional
-Section: misc
-Filename: pool/main/r/ros-galactic-depthai-ros/ros-galactic-depthai-ros_2.5.3-3focal~20221129_amd64.deb
-Size: 5136
-SHA256: d5c6231ab938d98e4716d8d0b4f16e5be1d52c9474e8d5581de2c50f3722c782
-SHA1: 4c343d9d5b6a7f51c1da9de54f82f8b817aaf7a7
-MD5sum: d29802b14490a364f7ae39df26368649
-Description: The depthai-ros package
-
-Package: ros-galactic-depthai-ros-msgs
-Version: 2.5.3-3focal~20221129
-Architecture: amd64
-Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 918
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-builtin-interfaces, ros-galactic-geometry-msgs, ros-galactic-rclcpp, ros-galactic-rosidl-default-generators, ros-galactic-sensor-msgs, ros-galactic-std-msgs, ros-galactic-vision-msgs
-Priority: optional
-Section: misc
-Filename: pool/main/r/ros-galactic-depthai-ros-msgs/ros-galactic-depthai-ros-msgs_2.5.3-3focal~20221129_amd64.deb
-Size: 76752
-SHA256: fc15950f418f35d1eb238cf1ea28dd3d7d88588ccb1085f693f0ad7e6e8be0b6
-SHA1: 8436f6a14beccaca04bce08c6f091c2264385234
-MD5sum: cb0aabd6b9b395de71b844cc2f17e547
-Description: Package to keep interface independent of the driver
-
-Package: ros-galactic-foxglove-msgs
-Version: 2.0.0-3focal~20220923
+Package: ros-foxy-foxglove-msgs
+Version: 2.2.0-3focal~20230427
 Architecture: amd64
 Maintainer: Foxglove <ros-tooling@foxglove.dev>
-Installed-Size: 5244
-Depends: libc6 (>= 2.4), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-galactic-geometry-msgs, ros-galactic-rosidl-default-runtime, ros-galactic-visualization-msgs
+Installed-Size: 6374
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libpython3.8 (>= 3.8.2), libstdc++6 (>= 5.2), ros-foxy-fastcdr, ros-foxy-geometry-msgs, ros-foxy-rosidl-default-runtime, ros-foxy-visualization-msgs
 Homepage: https://foxglove.dev/
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-galactic-foxglove-msgs/ros-galactic-foxglove-msgs_2.0.0-3focal~20220923_amd64.deb
-Size: 334320
-SHA256: 2684a1f6c227b1b3e3bd09620be299812e7bda602edd16d680b3432af969b149
-SHA1: c527b26f612280f8684bf6de41d8d75c79a91c7a
-MD5sum: 582756f5fcbfc31ecc87296ef0d2c77e
+Filename: pool/main/r/ros-foxy-foxglove-msgs/ros-foxy-foxglove-msgs_2.2.0-3focal~20230427_amd64.deb
+Size: 432932
+SHA256: c6be4fc4ecde43048b34eb1bc6940841ea018cab513199e7a7634311d913bbca
+SHA1: bb7b96af70234cbb9d2c3b6abdee4f4e4a4a286d
+MD5sum: 2ef54892c62b834a9fe6b3563e188252
 Description: foxglove_msgs provides visualization messages that are supported by Foxglove Studio.
 
 Package: ros-noetic-depthai
-Version: 2.19.1-3focal~20221129
+Version: 2.23.0-3focal~20231117
 Architecture: amd64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 21215
+Installed-Size: 21602
 Depends: libc6 (>= 2.17), libgcc-s1 (>= 4.2), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, libusb-1.0-0-dev, nlohmann-json3-dev, ros-noetic-catkin
 Homepage: https://www.luxonis.com/
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-noetic-depthai/ros-noetic-depthai_2.19.1-3focal~20221129_amd64.deb
-Size: 10488616
-SHA256: cc5b6790b994078a034da644327b79ac8507f68c8be3e59c14cc8311e9eaedb8
-SHA1: c34fdf6b565ea1fe77be3dd857331d73baffb14b
-MD5sum: 8d742ebc8eddad20ee920f6a04188ac7
+Filename: pool/main/r/ros-noetic-depthai/ros-noetic-depthai_2.23.0-3focal~20231117_amd64.deb
+Size: 10549188
+SHA256: fec2fb4496d78ceae47c7dd0139bc85a4c6f23b78f27a6524197e25632e33687
+SHA1: d5cf5d0a3bb80fa9f35ef33603ee69fd0c4ab352
+MD5sum: bf1d5cfc91dc84a58e3c639a7af518b3
+Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
+
+Package: ros-noetic-depthai
+Version: 2.22.0-3focal~20230808
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 21455
+Depends: libc6 (>= 2.17), libgcc-s1 (>= 4.2), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, libusb-1.0-0-dev, nlohmann-json3-dev, ros-noetic-catkin
+Homepage: https://www.luxonis.com/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai/ros-noetic-depthai_2.22.0-3focal~20230808_amd64.deb
+Size: 10435036
+SHA256: d25821828a9923df3acd173d92baa5774e1a9740967b901497f4ae7e8b6b25d5
+SHA1: e6729aad21158d828cad05f230c03ee27fe56f5f
+MD5sum: 39421415ffe11fd90c00b89946664ac2
 Description: DepthAI core is a C++ library which comes with firmware and an API to interact with OAK Platform
 
 Package: ros-noetic-depthai-bridge
-Version: 2.5.3-3focal~20221129
+Version: 2.7.5-3focal~20230808
 Architecture: amd64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 67859
-Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libboost-dev, libopencv-dev, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depthai, ros-noetic-depthai-ros-msgs, ros-noetic-image-transport, ros-noetic-robot-state-publisher, ros-noetic-ros-environment, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-stereo-msgs, ros-noetic-vision-msgs, ros-noetic-xacro
+Installed-Size: 303
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgcodecs4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 5.2), libboost-dev, libopencv-dev, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depthai, ros-noetic-depthai-ros-msgs, ros-noetic-image-transport, ros-noetic-ros-environment, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-stereo-msgs, ros-noetic-vision-msgs
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-noetic-depthai-bridge/ros-noetic-depthai-bridge_2.5.3-3focal~20221129_amd64.deb
-Size: 10506952
-SHA256: b5b8ad1473b233a85e9d5fb438a99a111b7beb0fe8adcca449d177b37353e7fd
-SHA1: 5a48de0e76520ec03ad569483f4f2b8a8fe33029
-MD5sum: 35e2b0da75ecacc874ba89bbaf529ff9
+Filename: pool/main/r/ros-noetic-depthai-bridge/ros-noetic-depthai-bridge_2.7.5-3focal~20230808_amd64.deb
+Size: 76244
+SHA256: 4d68dd10695ef1470fa7b7495440c528321c75491e6896e1fcd8a6811eebb6c4
+SHA1: b7fd9fd46c106f1ed2774330f1aa029b600d8ea3
+MD5sum: f87ab940f1a75fc7e89a0e47800ad89e
 Description: The depthai_bridge package
 
-Package: ros-noetic-depthai-examples
-Version: 2.5.3-3focal~20221129
-Architecture: amd64
-Maintainer: sachin <sachin@luxonis.com>
-Installed-Size: 27513
-Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-highgui4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depth-image-proc, ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-ros-msgs, ros-noetic-foxglove-msgs, ros-noetic-image-transport, ros-noetic-message-filters, ros-noetic-nodelet, ros-noetic-robot-state-publisher, ros-noetic-ros-environment, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-stereo-msgs, ros-noetic-vision-msgs, ros-noetic-xacro
-Priority: optional
-Section: misc
-Filename: pool/main/r/ros-noetic-depthai-examples/ros-noetic-depthai-examples_2.5.3-3focal~20221129_amd64.deb
-Size: 21607908
-SHA256: 5130024cde7c6f4bce35a87e37d892e2b005ec829cb16b7c3d6ad90495d08a24
-SHA1: e2f877b2a8d9fdcc8fe7c856cb30e83e970cb4a9
-MD5sum: a1df7947f8a9144997219034cd87fdda
-Description: The depthai_examples package
-
-Package: ros-noetic-depthai-ros
-Version: 2.5.3-3focal~20221129
-Architecture: amd64
-Maintainer: sachin <sachin@luxonis.com>
-Installed-Size: 14
-Depends: ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-examples, ros-noetic-depthai-ros-msgs
-Priority: optional
-Section: misc
-Filename: pool/main/r/ros-noetic-depthai-ros/ros-noetic-depthai-ros_2.5.3-3focal~20221129_amd64.deb
-Size: 2000
-SHA256: a7f0be93da6d27a7a94e9f778f2cd9c7f5bfc270c2746b395872e12fd121bfde
-SHA1: fcd792ab5d6debd21831347916bae876194284d6
-MD5sum: abef162590830bb387c9eb67b203207b
-Description: The depthai-ros package
-
-Package: ros-noetic-depthai-ros-msgs
-Version: 2.5.3-3focal~20221129
+Package: ros-noetic-depthai-bridge
+Version: 2.7.1-3focal~20230428
 Architecture: amd64
 Maintainer: Sachin Guruswamy <sachin@luxonis.com>
-Installed-Size: 465
+Installed-Size: 256
+Depends: libc6 (>= 2.14), libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgcodecs4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libboost-dev, libopencv-dev, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depthai, ros-noetic-depthai-ros-msgs, ros-noetic-image-transport, ros-noetic-ros-environment, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-stereo-msgs, ros-noetic-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-bridge/ros-noetic-depthai-bridge_2.7.1-3focal~20230428_amd64.deb
+Size: 69320
+SHA256: 3ce0a7ea6cae2191a0289b2058fca2ec847c3403a0217f353473b08af71b6328
+SHA1: 1e099570be321b190d6074120ca413b1dbf02f8a
+MD5sum: c087915624b04bef03b44e2b859f0d75
+Description: The depthai_bridge package
+
+Package: ros-noetic-depthai-descriptions
+Version: 2.7.5-3focal~20230808
+Architecture: amd64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 67601
+Depends: ros-noetic-robot-state-publisher, ros-noetic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-descriptions/ros-noetic-depthai-descriptions_2.7.5-3focal~20230808_amd64.deb
+Size: 10423888
+SHA256: dec27775dae185b7ceaf612ddcca4b06ca2a75c843dc6f249987241c7838a28b
+SHA1: d6c5d522727db79652590c0f99e0c46d5928f0dd
+MD5sum: 5f21c183b502e6435f60429a818ddbb6
+Description: The depthai_descriptions package
+
+Package: ros-noetic-depthai-descriptions
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 67601
+Depends: ros-noetic-robot-state-publisher, ros-noetic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-descriptions/ros-noetic-depthai-descriptions_2.7.1-3focal~20230428_amd64.deb
+Size: 10405536
+SHA256: 0c1694580c023844e071f823f9995ad75df968813ef830c3b754dcb302aecef0
+SHA1: 3b39baca873e14be512aa89573251a70e6cc6750
+MD5sum: b68fdd0d05c6d4c8cd8eaf13d8c68ffe
+Description: The depthai_descriptions package
+
+Package: ros-noetic-depthai-examples
+Version: 2.7.5-3focal~20230808
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 31870
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-highgui4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depth-image-proc, ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-descriptions, ros-noetic-depthai-ros-msgs, ros-noetic-foxglove-msgs, ros-noetic-image-transport, ros-noetic-message-filters, ros-noetic-nodelet, ros-noetic-robot-state-publisher, ros-noetic-ros-environment, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-stereo-msgs, ros-noetic-vision-msgs, ros-noetic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-examples/ros-noetic-depthai-examples_2.7.5-3focal~20230808_amd64.deb
+Size: 25349600
+SHA256: 83d14e0820a8daa87ba8917e55a6c761a769d319e68f39253e7e114b59d59140
+SHA1: 1fb60121aa6c3edb2ab384769d50859303689aa8
+MD5sum: 9185b730dc3d6c0317ed72a8813536dd
+Description: The depthai_examples package
+
+Package: ros-noetic-depthai-examples
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 31869
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-highgui4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depth-image-proc, ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-descriptions, ros-noetic-depthai-ros-msgs, ros-noetic-foxglove-msgs, ros-noetic-image-transport, ros-noetic-message-filters, ros-noetic-nodelet, ros-noetic-robot-state-publisher, ros-noetic-ros-environment, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-stereo-msgs, ros-noetic-vision-msgs, ros-noetic-xacro
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-examples/ros-noetic-depthai-examples_2.7.1-3focal~20230428_amd64.deb
+Size: 25360880
+SHA256: 5242f4ac0bc5ba36db516b67d001043371df79ee1de33205dbb49d44fe35f067
+SHA1: 354d7c312966b70fcc9b6cf32d991c474dc72af1
+MD5sum: 61c43089c615ca1afba607754a757950
+Description: The depthai_examples package
+
+Package: ros-noetic-depthai-filters
+Version: 2.7.5-3focal~20230808
+Architecture: amd64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 1252
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libopencv-contrib4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, ros-noetic-cv-bridge, ros-noetic-dynamic-reconfigure, ros-noetic-image-pipeline, ros-noetic-image-transport, ros-noetic-image-transport-plugins, ros-noetic-message-filters, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-vision-msgs, ros-noetic-visualization-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-filters/ros-noetic-depthai-filters_2.7.5-3focal~20230808_amd64.deb
+Size: 211424
+SHA256: f10e5b93fcb2685f404885821f7817dca7752242faf17b0f7ef35dda96ceaca6
+SHA1: 9fba7412971269218150717e826ab945024719c1
+MD5sum: 85b0ba2f3905fca4c31ac26eea48aa1e
+Description: The depthai_filters package
+
+Package: ros-noetic-depthai-filters
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 994
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libopencv-contrib4.2 (>= 4.2.0+dfsg), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libopencv-dev, ros-noetic-cv-bridge, ros-noetic-dynamic-reconfigure, ros-noetic-image-pipeline, ros-noetic-image-transport, ros-noetic-image-transport-plugins, ros-noetic-message-filters, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-sensor-msgs, ros-noetic-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-filters/ros-noetic-depthai-filters_2.7.1-3focal~20230428_amd64.deb
+Size: 179156
+SHA256: 50f81f38efcb8b7d740b2b8114ec40d7e519ff89bf82954435929347bd125c4b
+SHA1: af6fc8445a794691b88c38007a684d3258a9246a
+MD5sum: 21a823395a48f415e776f0091c663f15
+Description: The depthai_filters package
+
+Package: ros-noetic-depthai-ros
+Version: 2.7.5-3focal~20230808
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 18
+Depends: ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-descriptions, ros-noetic-depthai-examples, ros-noetic-depthai-filters, ros-noetic-depthai-ros-driver, ros-noetic-depthai-ros-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-ros/ros-noetic-depthai-ros_2.7.5-3focal~20230808_amd64.deb
+Size: 2716
+SHA256: 653aa8c2f2fd74a58f4eadd801d1c12be0cc0e3e0159ef4e3f377b3a7b20c3fd
+SHA1: 483b1178256d63fb4fafdbd82351f53e47347e7b
+MD5sum: c6e040dd30ce1939b7fa5bb59388a7ef
+Description: The depthai-ros package
+
+Package: ros-noetic-depthai-ros
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: sachin <sachin@luxonis.com>
+Installed-Size: 18
+Depends: ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-descriptions, ros-noetic-depthai-examples, ros-noetic-depthai-filters, ros-noetic-depthai-ros-driver, ros-noetic-depthai-ros-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-ros/ros-noetic-depthai-ros_2.7.1-3focal~20230428_amd64.deb
+Size: 2548
+SHA256: 1e064825ab47b0c76d6e247787be8c510f9a747569d16b4d27e0ad9649602633
+SHA1: a16607a1a0386c8576632fa9d6337ea2d1211ba6
+MD5sum: 03af70c2ec33c2d1cf5ab1652f90aa36
+Description: The depthai-ros package
+
+Package: ros-noetic-depthai-ros-driver
+Version: 2.7.5-3focal~20230808
+Architecture: amd64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 2455
+Depends: libboost-filesystem1.71.0, libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libopencv-core4.2 (>= 4.2.0+dfsg), libopencv-imgproc4.2 (>= 4.2.0+dfsg), libstdc++6 (>= 9), libtinyxml2-6a (>= 5.0.0), ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-descriptions, ros-noetic-depthai-examples, ros-noetic-depthai-ros-msgs, ros-noetic-diagnostic-msgs, ros-noetic-dynamic-reconfigure, ros-noetic-image-pipeline, ros-noetic-image-transport, ros-noetic-image-transport-plugins, ros-noetic-message-filters, ros-noetic-nodelet, ros-noetic-pluginlib, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-std-srvs, ros-noetic-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-ros-driver/ros-noetic-depthai-ros-driver_2.7.5-3focal~20230808_amd64.deb
+Size: 478668
+SHA256: 60f64544ee31cc9aa8290603851b12aa9a497f04db25c9c68b70e460269cc5c4
+SHA1: 19d2054a5752ff805adae79f486355139401581f
+MD5sum: 3d8d3ddcd561484e69cb67dfc930e625
+Description: Depthai ROS Monolithic node.
+
+Package: ros-noetic-depthai-ros-driver
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: Adam Serafin <adam.serafin@luxonis.com>
+Installed-Size: 1064
+Depends: libc6 (>= 2.14), libconsole-bridge0.4, libgcc-s1 (>= 3.0), libstdc++6 (>= 9), ros-noetic-camera-info-manager, ros-noetic-cv-bridge, ros-noetic-depthai, ros-noetic-depthai-bridge, ros-noetic-depthai-descriptions, ros-noetic-diagnostic-msgs, ros-noetic-dynamic-reconfigure, ros-noetic-image-pipeline, ros-noetic-image-transport, ros-noetic-image-transport-plugins, ros-noetic-message-filters, ros-noetic-nodelet, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-std-srvs, ros-noetic-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-ros-driver/ros-noetic-depthai-ros-driver_2.7.1-3focal~20230428_amd64.deb
+Size: 195176
+SHA256: d9cccf42f59b3a9fb7959125f788d75e16060b1df6eee9a62d73d8fe2addf6fd
+SHA1: acb5a08ad9ea1429d8690e78fcd8d1b675eb3cc9
+MD5sum: 23d2e22a5f6dee580e583b999f37b9a4
+Description: Depthai ROS Monolithic node.
+
+Package: ros-noetic-depthai-ros-msgs
+Version: 2.7.5-3focal~20230808
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 537
 Depends: ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-vision-msgs
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-noetic-depthai-ros-msgs/ros-noetic-depthai-ros-msgs_2.5.3-3focal~20221129_amd64.deb
-Size: 39276
-SHA256: 560d416fef61b59ec44f19703b137abde14c6d8556f2611fb77fcba9ae5b152a
-SHA1: 97750bfeca06bbe3af52476374908c6a70f1990d
-MD5sum: 4841cc5031da1036b4832d24206eeb8e
+Filename: pool/main/r/ros-noetic-depthai-ros-msgs/ros-noetic-depthai-ros-msgs_2.7.5-3focal~20230808_amd64.deb
+Size: 44240
+SHA256: b664d6928846fde93e2c8dec06fb131d5858aa530cc4adbef876c7710984071d
+SHA1: 872dd554d625bae8d176a1d9edc0d0a55dd4e0a9
+MD5sum: 584e006eaa55b0a388c78cd81f8eb24d
+Description: Package to keep interface independent of the driver
+
+Package: ros-noetic-depthai-ros-msgs
+Version: 2.7.1-3focal~20230428
+Architecture: amd64
+Maintainer: Sachin Guruswamy <sachin@luxonis.com>
+Installed-Size: 464
+Depends: ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-vision-msgs
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-depthai-ros-msgs/ros-noetic-depthai-ros-msgs_2.7.1-3focal~20230428_amd64.deb
+Size: 39280
+SHA256: 616a7ae58e3e0298741e83c56780d29bc9de7044f77882a3254099514451060b
+SHA1: b69cc9b03f2cbc6a14bcae57533cd46bd198ea60
+MD5sum: 8d4323830f9d8e2797227e2e339fd0d1
 Description: Package to keep interface independent of the driver
 
 Package: ros-noetic-foxglove-msgs
-Version: 2.0.0-3focal~20220923
+Version: 3.0.0-3focal~20231115
 Architecture: amd64
 Maintainer: Foxglove <ros-tooling@foxglove.dev>
-Installed-Size: 3738
+Installed-Size: 3961
 Depends: ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-visualization-msgs
 Homepage: https://foxglove.dev/
 Priority: optional
 Section: misc
-Filename: pool/main/r/ros-noetic-foxglove-msgs/ros-noetic-foxglove-msgs_2.0.0-3focal~20220923_amd64.deb
-Size: 158900
-SHA256: 1a67cea0754667dc7c583ffd82ec7afb1cf914589fdd0e1d8fa8483db07d0dd4
-SHA1: c946a12aec56e77fbc4eb8f28b236d807e81870a
-MD5sum: 257058be7c6f562baf09151d57a3da20
+Filename: pool/main/r/ros-noetic-foxglove-msgs/ros-noetic-foxglove-msgs_3.0.0-3focal~20231115_amd64.deb
+Size: 167932
+SHA256: 56cbc1c74fabedee22d042217409b69a9b3e3db0c7a7853c165d5e7abf12f788
+SHA1: 55544f1345b9732c169be9995f5180a7c140c324
+MD5sum: 5d672376c8c8d5dfabbe28423f52550b
+Description: foxglove_msgs provides visualization messages that are supported by Foxglove Studio.
+
+Package: ros-noetic-foxglove-msgs
+Version: 2.2.0-3focal~20230427
+Architecture: amd64
+Maintainer: Foxglove <ros-tooling@foxglove.dev>
+Installed-Size: 3904
+Depends: ros-noetic-geometry-msgs, ros-noetic-message-runtime, ros-noetic-visualization-msgs
+Homepage: https://foxglove.dev/
+Priority: optional
+Section: misc
+Filename: pool/main/r/ros-noetic-foxglove-msgs/ros-noetic-foxglove-msgs_2.2.0-3focal~20230427_amd64.deb
+Size: 166492
+SHA256: 6e7c582b7a8b0e57e366b2def599fdad347bda097c128f211b741f886cfaf383
+SHA1: e7beddc8d8efe8bf851e6642bb550f127c41f3cf
+MD5sum: 0ae07631e6c1f99fa13b1b3b30dfb042
 Description: foxglove_msgs provides visualization messages that are supported by Foxglove Studio.
 

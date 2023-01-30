@@ -29,11 +29,3 @@ Components: main
 UDebComponents: main 
 DDebComponents: main 
 SignWith: 360A71112379F7BD
-
-Codename: buster
-Limit: 2
-Architectures: amd64 arm64 source
-Components: main 
-UDebComponents: main 
-DDebComponents: main 
-SignWith: 360A71112379F7BD
